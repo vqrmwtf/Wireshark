@@ -26,14 +26,15 @@ curl https://httpbin.org/get
 ```
 
 ### Filters and Analysis in Wireshark
-```http only
+http only
+```
 http
 ```
-
-```https (tls)
+https (tls)
+```
 tls
 ```
-
-```ip/host
+ip/host
+```
 ip.addr == 192.168.xx.xx
 ```
